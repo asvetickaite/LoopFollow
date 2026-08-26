@@ -78,7 +78,8 @@ platform :ios do
       app_identifier: [
         APP_IDENTIFIER,
         LA_IDENTIFIER
-      ]
+      ],
+force: true
     )
 
     mapping = Actions.lane_context[
