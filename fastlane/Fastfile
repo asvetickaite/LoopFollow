@@ -71,7 +71,16 @@ platform :ios do
       xcodeproj: "#{GITHUB_WORKSPACE}/LoopFollow.xcodeproj",
       build_number: current_build_number
     )      
-    
+    configure_bundle_id (
+"LoopFollow",
+APP_IDENTIFIER,
+[]
+)
+configure_bundle_id (
+"LoopFollow Live Activity Extension",
+LA_IDENTIFIER,
+[]
+)
     match(
       type: "appstore",
       git_basic_authorization: Base64.strict_encode64("#{GITHUB_REPOSITORY_OWNER}:#{GH_PAT}"),
