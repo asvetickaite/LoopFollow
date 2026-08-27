@@ -42,7 +42,7 @@ end
 
 APP_SUFFIX = loopfollow_app_suffix
 APP_IDENTIFIER = "com.#{TEAMID}.LoopFollow#{APP_SUFFIX}"
-LA_IDENTIFIER = "#{APP_IDENTIFIER}.LoopFollowLAExtension"
+LA_IDENTIFIER = "group.com.DCG7U3Q9P4.loopkit.LoopFollowLAExtension"
 
 platform :ios do
   desc "Build Loop Follow"
