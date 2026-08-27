@@ -79,6 +79,7 @@ platform :ios do
         APP_IDENTIFIER,
         LA_IDENTIFIER
       ],
+readonly: false,
 force: true
     )
 
